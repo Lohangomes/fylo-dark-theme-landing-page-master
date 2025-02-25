@@ -1,0 +1,18 @@
+.localizacao-segura {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 51.0rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.localizacao-texto h1 {
+  font-size: 3.0rem;
+}
+.localizacao-texto p {
+  margin: 3.0rem auto;
+  max-width: 42.0rem;
+}

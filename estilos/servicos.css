@@ -1,0 +1,35 @@
+.cartao-servicos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-flow: wrap;
+  gap: 3.0rem;
+}
+
+.cartao {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  gap: 1.5rem;
+  max-width: 400px;
+}
+
+.cartao .carto-texto p {
+  margin-top: 2.0rem;
+}
+
+.cartao img {
+  margin: 0 auto;
+  object-fit: cover;
+
+}
+
+@media (max-width:1440px) {
+  
+  .cartao-servicos {
+    max-width: 120.0rem;
+    margin: 0 auto;
+  }
+
+
+}

@@ -1,0 +1,29 @@
+.conteudo-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 1.0rem;
+}
+
+
+.navegacao .lista {
+  display: flex;
+  align-items: center;
+  gap: 2.0rem;
+}
+
+.navegacao .lista li:not(:last-child) {
+  margin-right: 3.0rem;
+}
+
+.navegacao .lista li:hover .item-lista {
+  color: var(--White);
+  border-bottom: 1px solid var(--White);
+
+}
+
+.navegacao .lista .item-lista {
+  transition: color 0.3s ease, border 0.3s ease;
+
+}

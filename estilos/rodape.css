@@ -1,0 +1,85 @@
+footer {
+  background-color: var(--Dark-footer-Blue);
+  padding: 8.0rem;
+}
+
+.rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 3.0rem;
+}
+
+
+.conteudo-rodape {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.0rem;
+  align-items: flex-start;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  gap: 2.0rem;
+}
+
+.contato .lista-contato li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.0rem;
+}
+
+.contato .lista-contato {
+  display: flex;
+  flex-flow: column;
+  gap: 2.0rem;
+}
+
+.contato .lista-m {
+  max-width: 33.0rem;
+}
+
+.informacoes .lista-informacoes {
+  display: flex;
+  flex-flow: column;
+  gap: 2.0rem;
+}
+
+.termos .lista-termos {
+  display: flex;
+  flex-flow: column;
+  gap: 2.0rem;
+}
+
+.redes-sociais .lista-social {
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+
+.redes-sociais .lista-social li a:hover .fa-instagram,
+.redes-sociais .lista-social li a:hover .fa-facebook-f,
+.redes-sociais .lista-social li a:hover .fa-twitter {
+
+  color: var(--Cyan);
+}
+
+
+@media (max-width:1108px) {
+
+footer {
+  padding: 4.0rem;
+}
+  .conteudo-rodape {
+    flex-flow: column;
+  }
+  .contato {
+   align-items: flex-start;
+    flex-flow: column;
+  }
+
+  .redes-sociais {
+    align-self: center;
+  }
+}

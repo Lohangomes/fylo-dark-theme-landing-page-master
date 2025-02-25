@@ -1,0 +1,68 @@
+.comentarios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 3.0rem;
+}
+
+
+.cartao-comentarios {
+  padding: 3.5rem 2.0rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px 0 var(--Dark-email-Blue);
+  background-color: var(--Dark-Blue);
+  max-width: 34.0rem;
+
+}
+
+.cartao-comentarios:first-child {
+  position: relative;
+}
+.cartao-comentarios:first-child::before {
+  content: url(../images/bg-quotes.png);
+  top: -35px;
+  left: -10px;
+  position: absolute;
+  z-index: -1;
+ 
+}
+
+.cartao-comentarios .perfil {
+  display: flex;
+  align-items: center;
+  gap: 1.0rem;
+  margin-top: 2.0rem;
+
+}
+
+.cartao-comentarios .perfil-texto {
+  display: flex;
+  gap: 0.5rem;
+  flex-flow: column;
+
+
+}
+
+.cartao-comentarios .perfil img {
+  max-width: 3.5rem;
+  border-radius: 50%;
+
+}
+
+.cartao-comentarios .perfil span,
+small {
+  font-family: var(--fonte-secundaria);
+
+}
+
+.cartao-comentarios .perfil span {
+  color: var(--White);
+
+
+}
+
+.cartao-comentarios .perfil small {
+  color: var(--White-texto-low);
+  font-size: 1.0rem;
+}

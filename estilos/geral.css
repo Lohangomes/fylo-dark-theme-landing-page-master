@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 64.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: var(--Dark-Blue);
+  font-family: var(--fonte-primaria);
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 12.0rem;
+  height: auto;
+}
+
+a,
+p {
+  color: var(--White-texto-low);
+}
+
+p {
+  line-height: 150%;
+}
+
+h1,
+h2 {
+  color: var(--White);
+
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--White);
+  padding: 1.4rem 2.0rem;
+  background: linear-gradient(90deg, rgba(101, 226, 217, 1) 0%, rgba(51, 158, 204, 1) 100%);
+  border-radius: 9999px;
+  width: 20.0rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, rgba(127, 234, 244, 1) 0%, rgba(101, 226, 217, 1) 100%);
+}
+
+main::before {
+  content: "";
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: top;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+
+
+}
+
+main {
+  position: relative;
+}
