@@ -4,6 +4,8 @@
   text-align: center;
   flex-flow: wrap;
   gap: 3.0rem;
+  max-width: 100.0rem;
+  margin: 0 auto;
 }
 
 .cartao {
